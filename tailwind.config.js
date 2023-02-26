@@ -1,20 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     backgroundImage: {
-      app: 'linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5)'
+      app: 'linear-gradient(to left, #ffa900, #edcd17, #f9ea91)',
     },
     gridTemplateRows: {
       layout: '2rem 1fr 1.5rem',
     },
     gridTemplateColumns: {
-      editor: '3.5rem 16rem 1fr'
-    }
+      editor: '3.5rem 16rem 1fr',
+    },
   },
-  plugins: [
-    require('tailwind-scrollbar')
-  ],
-}
+  plugins: [require('tailwind-scrollbar')],
+};
